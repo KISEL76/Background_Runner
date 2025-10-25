@@ -1,6 +1,4 @@
-<h1 align="center">Queue Service
-<p>Background Task Processing App</p>
-</h1>
+<h1 align="center"> Background Task Runner </h1>
 
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHppdnN1dG81dDN1czN4Y2ozeThkdXM0YjRyYWVwbnNzamlqdmpnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G3Hu8RMcnHZA2JK6x1/giphy.gif" alt="alt" width="300" />
@@ -14,7 +12,7 @@
 
 ## ⚙️ Переменные окружения
 
-- `WORKERS` — количество воркеров (по умолчанию 4)  
+- `WORKERS` — количество воркеров-горутин (по умолчанию 4)  
 - `QUEUE_SIZE` — размер очереди (по умолчанию 64)  
 
 ## 🚀 Запуск и обращение к API
@@ -82,4 +80,3 @@
 
 - Все задачи и их статусы хранятся в памяти (`map[string]*Task`).  
 - При перезапуске данные не сохраняются.  
-# Jobpipe
